@@ -1,4 +1,4 @@
-# Last update: 04:05 30-08-2023
+# Last update: 05:05 30-08-2023
 
 do { /ip firewall address-list add address=8.222.198.145/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.241.138.122/32 list=Shopee } on-error={}
@@ -33,6 +33,7 @@ do { /ip firewall address-list add address=8.255.132.250/32 list=Shopee } on-err
 do { /ip firewall address-list add address=8.255.133.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=14.0.41.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=14.128.1.0/24 list=Shopee } on-error={}
+do { /ip firewall address-list add address=23.46.16.197/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=23.76.158.147/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=23.108.103.8/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=23.209.46.0/24 list=Shopee } on-error={}
