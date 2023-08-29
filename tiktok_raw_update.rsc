@@ -1,4 +1,4 @@
-# Last update: 00:45 30-08-2023
+# Last update: 00:46 30-08-2023
 
 do { /ip firewall address-list add address=2.17.196.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=2.20.254.0/24 list=Tiktok } on-error={}
