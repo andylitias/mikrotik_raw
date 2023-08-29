@@ -1,4 +1,4 @@
-# Last update: 05:05 30-08-2023
+# Last update: 06:05 30-08-2023
 
 do { /ip firewall address-list add address=8.222.198.145/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.241.138.122/32 list=Shopee } on-error={}
@@ -29,6 +29,7 @@ do { /ip firewall address-list add address=8.253.234.250/32 list=Shopee } on-err
 do { /ip firewall address-list add address=8.255.130.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.255.130.250/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.255.131.122/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=8.255.132.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.255.132.250/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.255.133.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=14.0.41.0/24 list=Shopee } on-error={}
@@ -65,8 +66,7 @@ do { /ip firewall address-list add address=43.175.46.118/31 list=Shopee } on-err
 do { /ip firewall address-list add address=45.116.82.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=45.116.83.3/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=45.116.83.9/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=45.121.219.216/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=45.121.219.233/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=45.121.219.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=47.241.241.207/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=66.114.58.22/31 list=Shopee } on-error={}
 do { /ip firewall address-list add address=67.26.49.237/32 list=Shopee } on-error={}
@@ -85,10 +85,7 @@ do { /ip firewall address-list add address=103.160.155.51/32 list=Shopee } on-er
 do { /ip firewall address-list add address=103.160.155.70/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=103.160.155.94/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=103.223.1.109/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=103.223.2.3/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=103.223.2.9/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=103.223.2.12/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=103.223.2.74/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=103.223.2.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.18.18.229/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.18.19.229/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.91.68.65/32 list=Shopee } on-error={}
@@ -98,14 +95,8 @@ do { /ip firewall address-list add address=118.98.42.11/32 list=Shopee } on-erro
 do { /ip firewall address-list add address=118.98.42.18/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=118.98.42.64/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=118.98.42.97/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=118.98.95.26/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=118.98.95.42/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=118.98.95.57/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=118.98.95.72/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=124.158.128.41/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=124.158.128.42/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=124.158.128.46/32 list=Shopee } on-error={}
-do { /ip firewall address-list add address=124.158.128.145/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=118.98.95.0/24 list=Shopee } on-error={}
+do { /ip firewall address-list add address=124.158.128.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=132.147.114.71/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=132.147.114.72/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=132.147.114.92/32 list=Shopee } on-error={}
@@ -198,4 +189,6 @@ do { /ip firewall address-list add address=210.210.172.6/32 list=Shopee } on-err
 do { /ip firewall address-list add address=210.210.172.62/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=211.152.128.7/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=211.152.128.8/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=211.152.128.69/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=223.119.255.161/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=223.119.255.163/32 list=Shopee } on-error={}
