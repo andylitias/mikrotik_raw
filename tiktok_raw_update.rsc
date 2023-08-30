@@ -1,4 +1,4 @@
-# Last update: 07:05 30-08-2023
+# Last update: 08:05 30-08-2023
 
 do { /ip firewall address-list add address=2.16.244.155/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=2.17.196.0/24 list=Tiktok } on-error={}
@@ -14,6 +14,7 @@ do { /ip firewall address-list add address=13.33.33.68/31 list=Tiktok } on-error
 do { /ip firewall address-list add address=13.33.88.79/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=13.33.88.110/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=13.33.88.127/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=13.35.169.41/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=13.224.249.30/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=13.224.249.37/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=13.224.249.53/32 list=Tiktok } on-error={}
@@ -33,10 +34,13 @@ do { /ip firewall address-list add address=23.1.240.0/24 list=Tiktok } on-error=
 do { /ip firewall address-list add address=23.3.90.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.32.5.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.32.29.0/24 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.33.22.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.38.195.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.40.40.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.44.4.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.44.5.211/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.45.12.144/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.45.12.146/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.45.173.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.45.232.49/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.45.232.51/32 list=Tiktok } on-error={}
@@ -48,9 +52,7 @@ do { /ip firewall address-list add address=23.46.155.216/32 list=Tiktok } on-err
 do { /ip firewall address-list add address=23.46.229.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.47.190.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.48.94.123/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=23.48.99.82/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=23.48.99.84/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=23.48.99.88/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.48.99.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.48.173.225/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.48.173.235/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.49.60.0/24 list=Tiktok } on-error={}
@@ -68,6 +70,9 @@ do { /ip firewall address-list add address=23.61.252.27/32 list=Tiktok } on-erro
 do { /ip firewall address-list add address=23.63.84.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.64.122.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.72.88.0/24 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.72.90.74/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.72.90.76/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.72.90.78/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.72.90.88/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.75.20.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.76.204.0/24 list=Tiktok } on-error={}
@@ -84,7 +89,7 @@ do { /ip firewall address-list add address=23.195.88.0/24 list=Tiktok } on-error
 do { /ip firewall address-list add address=23.195.91.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.195.104.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.197.49.0/24 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=23.198.6.177/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=23.198.6.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.199.47.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.199.69.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=23.200.135.0/24 list=Tiktok } on-error={}
@@ -152,15 +157,18 @@ do { /ip firewall address-list add address=34.117.26.217/32 list=Tiktok } on-err
 do { /ip firewall address-list add address=34.117.36.110/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.117.67.69/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.117.97.41/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=34.117.119.146/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.117.139.101/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.117.152.38/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.117.214.157/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.120.163.4/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.149.103.212/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.149.173.23/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=34.149.209.93/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.149.219.180/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=34.237.167.103/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=35.186.203.63/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=35.190.85.69/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=36.66.90.223/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=36.66.223.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=36.89.220.0/24 list=Tiktok } on-error={}
@@ -192,6 +200,7 @@ do { /ip firewall address-list add address=47.89.121.10/32 list=Tiktok } on-erro
 do { /ip firewall address-list add address=47.246.38.226/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=47.246.38.229/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=47.246.38.231/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=47.246.38.232/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=58.27.5.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=69.192.1.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=71.18.1.224/32 list=Tiktok } on-error={}
@@ -223,9 +232,7 @@ do { /ip firewall address-list add address=98.98.148.84/32 list=Tiktok } on-erro
 do { /ip firewall address-list add address=98.98.148.87/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=98.98.148.89/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=98.98.148.90/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=101.33.4.7/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=101.33.4.184/31 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=101.33.4.197/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=101.33.4.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=101.33.26.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=101.33.27.58/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=101.33.27.61/32 list=Tiktok } on-error={}
@@ -247,6 +254,7 @@ do { /ip firewall address-list add address=104.110.240.155/32 list=Tiktok } on-e
 do { /ip firewall address-list add address=104.116.243.19/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=104.123.71.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=108.138.141.0/24 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=112.215.103.230/31 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=112.215.103.238/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=114.4.39.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=114.4.168.0/24 list=Tiktok } on-error={}
@@ -324,7 +332,9 @@ do { /ip firewall address-list add address=147.160.184.45/32 list=Tiktok } on-er
 do { /ip firewall address-list add address=147.160.184.46/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=147.160.190.10/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=147.160.190.227/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=147.160.190.228/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=148.153.241.19/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=148.153.241.21/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=148.153.241.24/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=151.101.26.73/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=151.101.42.73/32 list=Tiktok } on-error={}
@@ -345,7 +355,7 @@ do { /ip firewall address-list add address=156.59.104.54/32 list=Tiktok } on-err
 do { /ip firewall address-list add address=156.59.106.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=156.59.107.146/31 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=156.59.107.148/32 list=Tiktok } on-error={}
-do { /ip firewall address-list add address=156.59.116.227/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=156.59.116.226/31 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=156.59.116.229/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=156.59.151.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=156.59.162.0/24 list=Tiktok } on-error={}
@@ -376,6 +386,7 @@ do { /ip firewall address-list add address=163.181.18.0/24 list=Tiktok } on-erro
 do { /ip firewall address-list add address=163.181.28.225/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=163.181.28.227/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=163.181.39.223/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=163.181.39.226/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=163.181.42.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=163.181.81.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=163.181.82.0/24 list=Tiktok } on-error={}
@@ -388,6 +399,7 @@ do { /ip firewall address-list add address=169.197.125.69/32 list=Tiktok } on-er
 do { /ip firewall address-list add address=169.197.125.72/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=169.197.125.75/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=169.197.125.76/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=173.222.211.97/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=180.250.81.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=180.250.169.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=182.0.128.112/31 list=Tiktok } on-error={}
@@ -398,6 +410,7 @@ do { /ip firewall address-list add address=184.28.235.0/24 list=Tiktok } on-erro
 do { /ip firewall address-list add address=184.29.140.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.30.30.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.30.42.8/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=184.30.42.28/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.30.42.190/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.31.15.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.51.6.196/32 list=Tiktok } on-error={}
@@ -406,6 +419,7 @@ do { /ip firewall address-list add address=184.51.6.203/32 list=Tiktok } on-erro
 do { /ip firewall address-list add address=184.84.165.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.86.250.27/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=184.87.193.0/24 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=185.38.109.109/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=185.81.209.130/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=185.152.65.62/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=185.180.14.178/31 list=Tiktok } on-error={}
@@ -424,6 +438,7 @@ do { /ip firewall address-list add address=202.56.174.111/32 list=Tiktok } on-er
 do { /ip firewall address-list add address=202.67.41.99/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=206.84.107.0/24 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=206.84.112.21/32 list=Tiktok } on-error={}
+do { /ip firewall address-list add address=206.84.112.23/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=210.210.145.138/31 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=211.152.128.59/32 list=Tiktok } on-error={}
 do { /ip firewall address-list add address=211.152.128.61/32 list=Tiktok } on-error={}
