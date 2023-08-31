@@ -1,4 +1,4 @@
-# Last update: 18:05 31-08-2023
+# Last update: 19:05 31-08-2023
 
 do { /ip firewall address-list add address=3.1.59.109/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.214.40.93/32 list=Shopee } on-error={}
@@ -30,6 +30,7 @@ do { /ip firewall address-list add address=8.241.168.122/32 list=Shopee } on-err
 do { /ip firewall address-list add address=8.241.168.250/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.241.169.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.241.169.250/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=8.246.100.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.246.101.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.247.49.122/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.247.49.250/32 list=Shopee } on-error={}
@@ -138,10 +139,12 @@ do { /ip firewall address-list add address=103.223.1.108/31 list=Shopee } on-err
 do { /ip firewall address-list add address=103.223.2.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.18.18.229/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.18.19.229/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=104.26.10.180/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.83.197.135/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.88.70.0/24 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.90.7.34/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.90.7.65/32 list=Shopee } on-error={}
+do { /ip firewall address-list add address=104.91.68.58/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.91.68.65/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.91.69.51/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=104.91.69.58/32 list=Shopee } on-error={}
