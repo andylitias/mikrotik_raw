@@ -1,4 +1,4 @@
-# Last update: 00:05 01-09-2023
+# Last update: 01:05 01-09-2023
 
 do { /ip firewall address-list add address=3.1.59.109/32 list=Shopee } on-error={}
 do { /ip firewall address-list add address=8.214.40.93/32 list=Shopee } on-error={}
