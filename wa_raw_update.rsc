@@ -1,4 +1,4 @@
-# Last update: 07:05 01-09-2023
+# Last update: 08:05 01-09-2023
 
 do { /ip firewall address-list add address=3.33.221.48/32 list=WA } on-error={}
 do { /ip firewall address-list add address=3.33.252.61/32 list=WA } on-error={}
@@ -56,6 +56,7 @@ do { /ip firewall address-list add address=52.17.137.207/32 list=WA } on-error={
 do { /ip firewall address-list add address=102.132.96.54/32 list=WA } on-error={}
 do { /ip firewall address-list add address=102.132.97.54/32 list=WA } on-error={}
 do { /ip firewall address-list add address=102.132.100.60/32 list=WA } on-error={}
+do { /ip firewall address-list add address=102.132.101.60/32 list=WA } on-error={}
 do { /ip firewall address-list add address=103.8.25.16/32 list=WA } on-error={}
 do { /ip firewall address-list add address=103.38.102.218/32 list=WA } on-error={}
 do { /ip firewall address-list add address=103.79.129.35/32 list=WA } on-error={}
