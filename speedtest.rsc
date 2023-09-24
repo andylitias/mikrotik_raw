@@ -1,4 +1,4 @@
-# Last update: 00:05 25-09-2023
+# Last update: 01:05 25-09-2023
 
 do { /ip firewall address-list add address=yougetsignal.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=xmyip.com list=SPEEDTEST } on-error={}
@@ -575,3 +575,4 @@ do { /ip firewall address-list add address=speakeasy.net list=SPEEDTEST } on-err
 do { /ip firewall address-list add address=speedtest.tele2.net list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=bandwidthplace.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=cbnspeed.com list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=fiber.google.com list=SPEEDTEST } on-error={}
