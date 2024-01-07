@@ -1,4 +1,4 @@
-# Last update: 18:05 07-01-2024
+# Last update: 19:05 07-01-2024
 
 do { /ip firewall address-list add address=yougetsignal.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=xmyip.com list=SPEEDTEST } on-error={}
