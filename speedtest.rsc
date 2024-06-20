@@ -1,4 +1,4 @@
-# Last update: 00:00 20-06-2024
+# Last update: 00:00 21-06-2024
 
 do { /ip firewall address-list add address=yougetsignal.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=xmyip.com list=SPEEDTEST } on-error={}
@@ -536,3 +536,7 @@ do { /ip firewall address-list add address=v4v6.ipv6-test.com list=SPEEDTEST } o
 do { /ip firewall address-list add address=ipv6-test.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=ipv6.he.net list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=api.whatismyip.com list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=ipgue.com list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=domainesia.com list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=static.domainesia.com list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=tools.domainesia.com list=SPEEDTEST } on-error={}
