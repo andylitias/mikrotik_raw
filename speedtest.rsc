@@ -1,4 +1,4 @@
-# Last update: 00:14 20-08-2025
+# Last update: 00:18 20-08-2025
 
 do { /ip firewall address-list add address=yougetsignal.com list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=xmyip.com list=SPEEDTEST } on-error={}
@@ -1111,24 +1111,14 @@ do { /ip firewall address-list add address=3.165.75.9 list=SPEEDTEST } on-error=
 do { /ip firewall address-list add address=172.233.79.63 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=212.7.209.248 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=212.7.210.184 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.224 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.227 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.229 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.228 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.226 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.222 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.220 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.225 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=46.8.8.223 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=5.199.139.48 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=78.159.108.52 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=173.230.139.136 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=69.164.218.12 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=45.33.33.195 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=212.7.209.251 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=31.204.150.121 list=SPEEDTEST } on-error={}
-do { /ip firewall address-list add address=31.204.152.232 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=165.225.244.120 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=165.225.4.120 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=165.225.4.122 list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=46.8.8.200 list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=31.204.152.232 list=SPEEDTEST } on-error={}
+do { /ip firewall address-list add address=31.204.150.121 list=SPEEDTEST } on-error={}
 do { /ip firewall address-list add address=146.112.197.74 list=SPEEDTEST } on-error={}
